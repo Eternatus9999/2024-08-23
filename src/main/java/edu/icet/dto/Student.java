@@ -4,7 +4,6 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @Data
 @AllArgsConstructor
@@ -13,5 +12,5 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class Student {
     private int id;
     private String name;
-    private String adress;
+    private String address;
 }

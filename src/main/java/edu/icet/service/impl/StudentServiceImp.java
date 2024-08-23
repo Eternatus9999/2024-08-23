@@ -1,10 +1,11 @@
-package edu.icet.service;
+package edu.icet.service.impl;
 
 import edu.icet.dto.Student;
+import edu.icet.service.StudentService;
 import org.springframework.stereotype.Service;
 
 @Service
-public class StudentServiceImp implements StudentService{
+public class StudentServiceImp implements StudentService {
     @Override
     public void Add(Student student) {
 
